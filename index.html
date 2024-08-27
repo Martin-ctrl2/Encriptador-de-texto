@@ -16,6 +16,7 @@
           cols="30"
           rows="10"
           placeholder="Ingrese el texto aqui"
+          oninput="this.value = this.value.toLowerCase().replace(/[^a-z\s]/g, '')"
         ></textarea>
 
         <div class="terminos">
